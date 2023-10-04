@@ -1,85 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="5" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-02T22:19:48 IST" name="Default suite" finished-at="2023-10-02T22:19:48 IST" duration-ms="84">
+  <suite started-at="2023-10-04T23:15:04 IST" name="Default suite" finished-at="2023-10-04T23:15:05 IST" duration-ms="102">
     <groups>
     </groups>
-    <test started-at="2023-10-02T22:19:48 IST" name="Default test" finished-at="2023-10-02T22:19:48 IST" duration-ms="84">
-      <class name="testNGWithBaseClass.com.TestNGWithBaseClass2">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="beforeSuite" finished-at="2023-10-02T22:19:48 IST" duration-ms="25" status="PASS">
+    <test started-at="2023-10-04T23:15:04 IST" name="Default test" finished-at="2023-10-04T23:15:05 IST" duration-ms="102">
+      <class name="invocation.com.DataProviderClass">
+        <test-method signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase1" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vipul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeSuite -->
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="beforeTest" finished-at="2023-10-02T22:19:48 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase1" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dhruv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="beforeClass" finished-at="2023-10-02T22:19:48 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase1" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rutul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Soni]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="beforeMethod" finished-at="2023-10-02T22:19:48 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase1" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rutul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Soni]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="tstCase07()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="tstCase07" finished-at="2023-10-02T22:19:48 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- testCase1 -->
+        <test-method signature="testCase2(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase2" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vipul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tstCase07 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="afterMethod" finished-at="2023-10-02T22:19:48 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase2(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase2" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dhruv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="beforeMethod" finished-at="2023-10-02T22:19:48 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase2(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase2" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rutul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Soni]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="tstCase08()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="tstCase08" finished-at="2023-10-02T22:19:48 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- testCase2 -->
+        <test-method signature="testCase2(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase2" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rutul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Soni]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tstCase08 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="afterMethod" finished-at="2023-10-02T22:19:48 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="tstCase09()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="tstCase09" finished-at="2023-10-02T22:19:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tstCase09 -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="beforeMethod" finished-at="2023-10-02T22:19:48 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="afterMethod" finished-at="2023-10-02T22:19:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="beforeMethod" finished-at="2023-10-02T22:19:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="tstCase10()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="tstCase10" finished-at="2023-10-02T22:19:48 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tstCase10 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="afterMethod" finished-at="2023-10-02T22:19:48 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterclass()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="afterclass" finished-at="2023-10-02T22:19:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterclass -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="afterTest" finished-at="2023-10-02T22:19:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testNGWithBaseClass.com.TestNGWithBaseClass2@7ae0a9ec]" started-at="2023-10-02T22:19:48 IST" name="afterSuite" finished-at="2023-10-02T22:19:48 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-      </class> <!-- testNGWithBaseClass.com.TestNGWithBaseClass2 -->
+        </test-method> <!-- testCase2 -->
+      </class> <!-- invocation.com.DataProviderClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

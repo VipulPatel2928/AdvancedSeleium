@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="priority">
+  <test thread-count="5" name="Priority1">
+    <classes>
+      <class name="priority.com.Priority2"> 
+		<methods>
+			<include name="tstCase05"></include>
+			<include name="tstCase03"></include>
+			<exclude name="tstCase04"></exclude>
+			<include name="tstCase01"></include>
+			<include name="tstCase02"></include>
+		</methods>  
+	  </class>
+    </classes>
+  </test> <!-- Priority -->
+  
+  <test thread-count="5" name="Priority2">
+    <classes>
+      <class name="priority.com.Priority2"> 
+		<methods>
+			<include name="btstCase07"/>
+			<include name="atstCase06"></include>
+		</methods>  
+	  </class>
+    </classes>
+  </test> <!-- Priority -->
+</suite> <!-- priority -->

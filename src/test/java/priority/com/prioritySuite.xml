@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="priority">
+	<parameter name="name" value="Vipul"></parameter>
   <test thread-count="5" name="Priority1">
     <classes>
       <class name="priority.com.Priority"> 
@@ -12,8 +13,9 @@
   </test> <!-- Priority -->
    <test thread-count="5" name="Priority2">
     <classes>
-      <class name="priority.com.Priority"> 
+      <class name="priority.com.Priority2"> 
 		<methods>
+			<include name="tstCase01"></include>
 			<include name="tstCase02"></include>
 		</methods>  
 	  </class>

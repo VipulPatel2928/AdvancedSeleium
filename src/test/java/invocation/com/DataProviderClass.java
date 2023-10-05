@@ -14,7 +14,7 @@ public class DataProviderClass {
 			{"Rutul", "Soni" }
 		};
 	}
-	
+	//---------------------------------------------------------//
 	@Test(dataProvider = "firstNameLastName")
 	public void testCase1(String firstname, String lastName) {
 		System.out.println(firstname);

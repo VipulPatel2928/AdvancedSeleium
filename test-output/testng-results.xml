@@ -1,141 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-04T23:15:04 IST" name="Default suite" finished-at="2023-10-04T23:15:05 IST" duration-ms="102">
+  <suite started-at="2023-10-05T22:27:32 IST" name="Default suite" finished-at="2023-10-05T22:27:42 IST" duration-ms="9085">
     <groups>
     </groups>
-    <test started-at="2023-10-04T23:15:04 IST" name="Default test" finished-at="2023-10-04T23:15:05 IST" duration-ms="102">
-      <class name="invocation.com.DataProviderClass">
-        <test-method signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase1" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="7" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Vipul]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Patel]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-10-05T22:27:32 IST" name="Default test" finished-at="2023-10-05T22:27:42 IST" duration-ms="9085">
+      <class name="timeout.com.TimeOutClass">
+        <test-method signature="timeOutTestCase1()[pri:0, instance:timeout.com.TimeOutClass@75d3a5e0]" started-at="2023-10-05T22:27:32 IST" name="timeOutTestCase1" finished-at="2023-10-05T22:27:42 IST" duration-ms="9028" status="FAIL">
+          <exception class="org.testng.internal.thread.ThreadTimeoutException">
+            <message>
+              <![CDATA[Method timeout.com.TimeOutClass.timeOutTestCase1() didn't finish within the time-out 9000]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method timeout.com.TimeOutClass.timeOutTestCase1() didn't finish within the time-out 9000
+at java.base@11.0.16.1/java.lang.Thread.sleep(Native Method)
+at app//timeout.com.TimeOutClass.timeOutTestCase1(TimeOutClass.java:9)
+at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base@11.0.16.1/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base@11.0.16.1/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base@11.0.16.1/java.lang.reflect.Method.invoke(Method.java:566)
+at app//org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:47)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:76)
+at app//org.testng.internal.invokers.InvokeMethodRunnable.call(InvokeMethodRunnable.java:11)
+at java.base@11.0.16.1/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base@11.0.16.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base@11.0.16.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base@11.0.16.1/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase1" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Dhruv]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Patel]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase1" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Rutul]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Soni]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method signature="testCase1(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase1" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Rutul]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Soni]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase1 -->
-        <test-method signature="testCase2(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase2" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Vipul]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Patel]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method signature="testCase2(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase2" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Dhruv]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Patel]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method signature="testCase2(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase2" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Rutul]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Soni]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-        <test-method signature="testCase2(java.lang.String,java.lang.String)[pri:0, instance:invocation.com.DataProviderClass@4a83a74a]" started-at="2023-10-04T23:15:05 IST" name="testCase2" data-provider="firstNameLastName" finished-at="2023-10-04T23:15:05 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Rutul]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Soni]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCase2 -->
-      </class> <!-- invocation.com.DataProviderClass -->
+        </test-method> <!-- timeOutTestCase1 -->
+      </class> <!-- timeout.com.TimeOutClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

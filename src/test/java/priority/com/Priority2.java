@@ -8,7 +8,10 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+import com.beust.jcommander.Parameter;
 
 public class Priority2 {
 
@@ -51,14 +54,18 @@ public class Priority2 {
 		System.out.println("After Suite");
 	}
 
-	@Test
-	public void tstCase01() {
-		System.out.println("This is Test Case 01");
+	
+	@Test(timeOut = 200)
+	@Parameters("name")
+	public void tstCase01(String name) throws InterruptedException {
+		Thread.sleep(2000);
+		System.out.println("This is Test Case 01     :"+name);
 	}
 
 	@Test
-	public void tstCase02() {
-		System.out.println("This is Test Case 02");
+	@Parameters("name")
+	public void tstCase02(String name) {
+		System.out.println("This is Test Case 02     :"+name);
 	}
 
 	@Test

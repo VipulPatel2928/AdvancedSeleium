@@ -2,11 +2,8 @@ Below command to execute spesific suite file
 
 mvn test -DsuiteXmlFiles=Build/testng.xml
 
-
 Below command to execute pom file
 mvn test
-
-
 
 Maven file download
 
